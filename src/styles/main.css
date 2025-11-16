@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+  }
+  
+  #root {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(60, 72, 88, 0.13);
+    padding: 32px 32px 64px 32px;
+  }
+  
+  header {
+    margin-bottom: 24px;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+  }
+  
+  h2 {
+    margin: 24px 0 10px 0;
+    font-size: 1.4rem;
+  }
+  
+  h3 {
+    margin: 16px 0 8px 0;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 7px 10px;
+    border: 1px solid #bec6cf;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin: 8px 12px 8px 0;
+    width: 180px;
+    background: #fafbfc;
+    transition: border-color 0.2s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    border-color: #1e88e5;
+    outline: none;
+    background: #fff;
+  }
+  
+  button {
+    padding: 7px 16px;
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-left: 4px;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: default;
+  }
+  
+  button:hover:enabled {
+    background: #1565c0;
+  }
+  
+  ul {
+    margin: 10px 0 0 18px;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+  }
+  
+  p {
+    margin: 13px 0;
+    color: #333;
+  }
+  
+  .card {
+    background: #f4f8fb;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(30, 136, 229, 0.06);
+  }
+  
+  @media (max-width: 768px) {
+    #root {
+      max-width: 96vw;
+      padding: 12px 4vw;
+    }
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+  
